@@ -41,6 +41,5 @@ class Task < ApplicationRecord
       transition new_task: :archived
       transition released: :archived
     end
-
   end
 end
